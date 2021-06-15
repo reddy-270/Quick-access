@@ -5,8 +5,8 @@
   
   #icon
   {
-    color: rgb(80, 99, 99);
-      margin-bottom: 30px;
+    color: rgb(92, 104, 104);
+      margin-bottom: 20px;
   }
   .textspace
   {
@@ -50,6 +50,10 @@
 
 @media (min-width:750px) and (max-width: 1600px) and (min-height:633px){
 
+  .icon_quick
+  {
+    display: none;
+  }
 
   .hidde
   {
@@ -102,6 +106,11 @@
 
 @media (min-width: 1295px){
 
+
+  .icon_quick
+  {
+    display: none;
+  }
 .fifty::before {
   content: ' ';
   position: absolute;
@@ -424,16 +433,28 @@
   
     .fifty
     {
+      margin: 30px;
       display: inline-grid;
       align-items: center;
       justify-content: center;
       text-align: center;
     }
 
+    .textspace
+  {
+    margin: 5px;
+    font-size: larger;
+      padding: 15px;
+      border: 2px  solid #c4f7c8;
+      border-radius: 30px;
+      background-color: #c4f7c8;
+      box-shadow:  inset 5px 5px 10px #a7d2aa,
+                      inset -5px -5px 10px #e1ffe6;
+  }
   .container
   {
       display: flex;
-      width: 350px;
+      width: 330px;
       height: 480px;
       text-align: center;
       justify-content: center;
