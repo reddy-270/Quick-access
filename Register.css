@@ -1,0 +1,240 @@
+body
+{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #d4d4d4;
+}
+
+@media (min-width:750px)
+{
+    .container
+    {
+        margin-top: 2%;
+        display: flex;
+    }
+}
+.text-space:focus
+    {
+        outline: none;
+    }
+
+.text-space
+{
+    outline: none;
+    margin: 15px;
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 7px;
+    font-size: large;
+    background: #ffffff;
+    box-shadow: inset 5px 5px 10px #d9d9d9,
+            inset -5px -5px 10px #ffffff;
+}
+
+.register
+{
+    margin: 15px;
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 7px;
+    font-size: large;
+    background: #ffffff;
+    box-shadow:  5px 5px 10px #d9d9d9,
+             -5px -5px 10px #ffffff;
+}
+
+.register:hover
+{
+    margin: 15px;
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: large;
+    background: #ffffff;
+    box-shadow:  inset 5px 5px 10px #d9d9d9,
+             inset -5px -5px 10px #ffffff;
+}
+
+@media (min-width:750px)
+{
+    .img-hide
+    {
+        display: none;   
+    }
+    .typewriter  {
+
+        color: rgb(255, 255, 255);
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: .15em solid orange; /* The typwriter cursor */
+        white-space:nowrap; /*Keeps the content on a single line*/
+        margin: 0 auto; 
+        animation: 
+        typing 2s steps(30, end),
+        blink-caret .5s step-end infinite;
+    }
+
+    /* The typing effect */
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 60% }
+    }
+
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: rgb(86, 90, 83) }
+    }
+}
+
+@media (min-width:1125px)
+{
+    .img
+    {
+        margin-top: 100px;
+        font-size: 2rem;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .register_box
+    {
+        color: #bdbdbd;
+        margin: 20px;
+        width: 410px;
+        height: 550px;
+        border: 2px solid white;
+        background-color: white;
+        border-radius: 6px;
+        font-size: x-large;
+    }
+}
+
+@media (max-width:1124px) and (min-width:900px)
+{
+    .img
+    {
+        margin-top: 100px;
+        font-size: 1.5rem;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .register_box
+    {
+        color: #bdbdbd;
+        margin: 20px;
+        width: 380px;
+        height: 520px;
+        border: 2px solid white;
+        background-color: white;
+        border-radius: 6px;
+        font-size: x-large;
+    }
+}
+
+@media (max-width:899px) and (min-width:750px)
+{
+
+    .img-hide
+    {
+        display: none;   
+    }
+    .container
+    {
+        padding-top: 100px;
+    }
+    .imag
+    {
+        width: 350px;
+    }
+
+    .img
+    {
+        margin-top: 50px;
+        font-size: 1rem;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .register_box
+    {
+        margin-left: 10px;
+        color: #bdbdbd;
+        margin: 20px;
+        width: 350px;
+        height: 480px;
+        border: 2px solid white;
+        background-color: white;
+        border-radius: 6px;
+        font-size: x-large;
+    }
+
+    .text-space
+    {
+        margin: 15px;
+        border: 2px solid white;
+        padding: 10px;
+        border-radius: 7px;
+        font-size: large;
+        background: #ffffff;
+        box-shadow: inset 5px 5px 10px #d9d9d9,
+                inset -5px -5px 10px #ffffff;
+    }
+
+    .text-space:focus
+    {
+        outline: none;
+    }
+}
+
+@media (max-width:749px)
+{
+    .img
+    {
+        display: none;
+    }
+    .register_box
+    {
+        padding-top: 60px;
+        font-size: 2rem;
+        margin-top: 5%px;
+        color: #bdbdbd;
+        margin: 20px;
+        width: 400px;
+        height: 550px;
+        border: 2px solid white;
+        background-color: white;
+        border-radius: 6px;
+        font-size: x-large;
+    }
+    #typewriter  {
+
+        color: #d4d4d4;
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: .15em solid orange; /* The typwriter cursor */
+        white-space:nowrap; /*Keeps the content on a single line*/
+        margin: 0 auto; 
+        animation: 
+        typing 2s steps(30, end),
+        blink-caret .5s step-end infinite;
+    }
+
+    /* The typing effect */
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 60% }
+    }
+
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: rgb(86, 90, 83) }
+    }
+}
+
