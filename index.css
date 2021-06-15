@@ -48,7 +48,7 @@
 
 
 
-@media (min-width:750px) and (max-width: 1600px){
+@media (min-width:750px) and (max-width: 1600px) and (min-height:633px){
 
 
   .hidde
@@ -345,11 +345,14 @@
   }
 }
 
-@media (max-width:749px) and (min-height:700px)
+@media (max-height:632px)
 {
   body
   {
-    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
     background-color: #c4f7c8;
   }
 
@@ -363,6 +366,64 @@
       margin-left: calc(100vh - 93vh);
       margin-right: calc(100vh - 97vh);
       /* display: flex; */
+      display: inline-grid;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+  .container
+  {
+      display: flex;
+      width: 350px;
+      height: 440px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      border: 3px solid #c4f7c8;
+      border-radius: 15px;
+      box-shadow:  5px 5px 10px #a7d2aa,
+                  -5px -5px 10px #e1ffe6;  
+  }
+
+  .register_button:hover
+  {
+    background: #c4f7c8;
+    box-shadow: inset 5px 5px 10px #a7d2aa,
+                inset -5px -5px 10px #e1ffe6;
+  }
+
+    
+.register_button
+{
+  font-size: larger;
+  color: rgb(80, 99, 99);
+  border:2px solid #c4f7c8;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background: #c4f7c8;
+  box-shadow:  5px 5px 10px #a7d2aa,
+             -5px -5px 10px #e1ffe6;
+  text-decoration: none;
+}
+}
+
+@media (max-width:749px) 
+{
+  body
+  {
+    text-align: center;
+    padding-top: 80px;
+    background-color: #c4f7c8;
+  }
+
+    .image 
+    {
+      display: none;
+    }
+  
+    .fifty
+    {
       display: inline-grid;
       align-items: center;
       justify-content: center;
